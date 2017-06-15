@@ -1,0 +1,273 @@
+config restore_at_idle
+device_alsa_device default
+device_alsa_mixer channel
+device_color_bgr15 yes
+device_color_bgr16 yes
+device_color_bgr24 yes
+device_color_bgr32 yes
+device_color_bgr8 yes
+device_color_palette8 yes
+device_color_yuy2 yes
+device_joystick none
+device_keyboard auto
+device_mouse none
+device_raw_firstkeyhack no
+device_raw_mousedev[0] auto
+device_raw_mousedev[1] auto
+device_raw_mousedev[2] auto
+device_raw_mousedev[3] auto
+device_raw_mousetype[0] pnp
+device_raw_mousetype[1] pnp
+device_raw_mousetype[2] pnp
+device_raw_mousetype[3] pnp
+device_sdl_samples 512
+device_sound auto
+device_video auto
+device_video_cursor auto
+device_video_doublescan yes
+device_video_fastchange no
+device_video_interlace yes
+device_video_output auto
+device_video_overlaysize auto
+device_video_singlescan yes
+difficulty none
+display_brightness 1
+display_gamma 1
+display_orientation flip_xy mirror_x
+display_restoreatexit yes
+display_restoreatgame yes
+display_size 640
+emulator "advmame" advmame "advmame" "-misc_quiet"
+emulator "advmess" advmess "advmess" ""
+event_alpha yes
+event_assign up up or 8_pad
+event_assign down down or 2_pad
+event_assign left left or 4_pad
+event_assign right right or 6_pad
+event_assign enter enter or enter_pad or 1 or 5 or lcontrol
+event_assign esc esc
+event_assign space space
+event_assign home home
+event_assign end end
+event_assign pgup pgup
+event_assign pgdn pgdn
+event_assign del del
+event_assign ins insert
+event_assign shutdown esc lcontrol
+event_assign mode tab
+event_assign help esc
+event_assign group f2 or tab
+event_assign type f3
+event_assign exclude f4
+event_assign sort f5
+event_assign setgroup f9
+event_assign settype f10
+event_assign runclone f12
+event_assign command f8 or 2
+event_assign menu backquote or backslash
+event_assign emulator f6
+event_assign rotate 0_pad
+event_assign lock scrlock
+event_assign preview space
+event_assign mute period_pad
+event_mode fast
+event_repeat 500 50
+icon_space 43
+idle_screensaver 60 10
+idle_screensaver_preview snap
+idle_start 0 0
+include 
+input_hotkey yes
+lock no
+menu_base 0
+menu_rel 3
+merge differential
+misc_exit shutdown
+misc_quiet no
+mode tile_normal
+mode_skip full full_mixed text list list_mixed tile_small tile_big tile_enormous tile_giant tile_icon tile_marquee
+mouse_delta 100
+preview snap
+preview_default none
+preview_default_cabinet none
+preview_default_flyer none
+preview_default_icon none
+preview_default_marquee none
+preview_default_snap none
+preview_default_title none
+preview_expand 1.15
+sort parent
+sound_background_begin none
+sound_background_end none
+sound_background_loop none
+sound_background_loop_dir none
+sound_background_start none
+sound_background_stop none
+sound_buffer 0.1
+sound_foreground_begin none
+sound_foreground_end none
+sound_foreground_key none
+sound_foreground_start none
+sound_foreground_stop none
+sound_latency 0.1
+sound_samplerate 44100
+sound_volume -3
+ui_background none
+ui_bottombar yes
+ui_clip singleloop
+ui_color help 000000 ffffff
+ui_color help_tag 247ef0 ffffff
+ui_color submenu_bar 247ef0 ffffff
+ui_color submenu_item 000000 ffffff
+ui_color submenu_item_select 000000 afffff
+ui_color submenu_hidden 808080 ffffff
+ui_color submenu_hidden_select 808080 afffff
+ui_color menu_item 000000 ffffff
+ui_color menu_hidden 808080 ffffff
+ui_color menu_tag 247ef0 ffffff
+ui_color menu_item_select 000000 afffff
+ui_color menu_hidden_select 808080 afffff
+ui_color menu_tag_select 247ef0 afffff
+ui_color bar 000000 ffffff
+ui_color bar_tag 247ef0 ffffff
+ui_color bar_hidden 808080 ffffff
+ui_color grid 247ef0 ffffff
+ui_color backdrop 000000 000000
+ui_color icon ffffff ffffff
+ui_color cursor ffffff 000000
+ui_command_error Error running the command
+ui_command_menu Command...
+ui_command "Play soundbite" ~/.advance/soundbite &
+ui_command "Shut down" sudo poweroff
+ui_command "Reboot" sudo reboot
+ui_console no
+ui_exit none
+ui_font auto
+ui_fontsize 30
+ui_game snap
+ui_gamemsg "Loading"
+ui_help Help.png
+ui_menukey yes
+ui_skipbottom 0
+ui_skipleft 0
+ui_skipright 0
+ui_skiptop 0
+ui_startup "marquee.png"
+ui_topbar yes
+ui_translucency 0.6
+advmame/mode tile_normal
+advmame/preview snap
+group_include "Favourites"
+type_include "<undefined>"
+emulator_include "advmame"
+group "<undefined>"
+group "Favourites"
+type "<undefined>"
+emulator_attrib "advmame" missing exclude
+emulator_attrib "advmame" clone exclude
+emulator_attrib "advmame" bad exclude
+emulator_attrib "advmame" vector include
+emulator_attrib "advmame" vertical include
+emulator_attrib "advmame" neogeo include
+emulator_attrib "advmame" deco exclude
+emulator_attrib "advmame" playchoice exclude
+emulator_attrib "advmess" missing exclude
+emulator_attrib "advmess" clone exclude
+emulator_attrib "advmess" bad exclude
+emulator_attrib "advmess" vector include
+emulator_attrib "advmess" vertical include
+emulator_attrib "advmess" empty exclude
+game "advmame/1941" "Favourites" "" 0 0 ""
+game "advmame/88games" "Favourites" "" 0 0 ""
+game "advmame/aafb" "" "" 0 1 ""
+game "advmame/aburner2" "Favourites" "" 986 5 ""
+game "advmame/apb" "Favourites" "" 0 0 ""
+game "advmame/arkanoid" "Favourites" "" 95 1 ""
+game "advmame/astdelux" "" "" 47 1 ""
+game "advmame/asteroid" "Favourites" "" 248 6 ""
+game "advmame/atetris" "Favourites" "" 1901 4 ""
+game "advmame/avalnche" "" "" 102 2 ""
+game "advmame/bankp" "Favourites" "" 93 1 ""
+game "advmame/beastrzb" "" "" 0 0 ""
+game "advmame/berzerk" "Favourites" "" 87 1 ""
+game "advmame/bigbucks" "Favourites" "" 0 0 ""
+game "advmame/bombjack" "Favourites" "" 995 4 ""
+game "advmame/btime" "Favourites" "" 0 0 ""
+game "advmame/bublbob2" "Favourites" "" 0 0 ""
+game "advmame/cameltry" "" "" 43 1 ""
+game "advmame/cclimber" "Favourites" "" 0 0 ""
+game "advmame/centiped" "Favourites" "" 28 1 ""
+game "advmame/chasehq" "Favourites" "" 288 4 ""
+game "advmame/chplft" "Favourites" "" 0 0 ""
+game "advmame/chplftb" "" "" 97 1 ""
+game "advmame/ddp3" "" "" 31 1 ""
+game "advmame/defender" "Favourites" "" 91 2 ""
+game "advmame/digdug" "Favourites" "" 333 3 ""
+game "advmame/driftout" "Favourites" "" 0 0 ""
+game "advmame/elevator" "Favourites" "" 0 0 ""
+game "advmame/f1gpstar" "" "" 80 1 ""
+game "advmame/frogger" "Favourites" "" 213 1 ""
+game "advmame/galaga" "Favourites" "" 3194 19 ""
+game "advmame/galaxian" "Favourites" "" 52 1 ""
+game "advmame/greatgun" "" "" 99 1 ""
+game "advmame/growl" "" "" 226 1 ""
+game "advmame/gtmr" "Favourites" "" 74 1 ""
+game "advmame/gunfront" "" "" 220 1 ""
+game "advmame/gutsn" "" "" 21 3 ""
+game "advmame/gyruss" "Favourites" "" 369 4 ""
+game "advmame/hardhead" "" "" 82 1 ""
+game "advmame/hattrick" "" "" 50 2 ""
+game "advmame/hvnsgate" "" "" 494 3 ""
+game "advmame/invaders" "Favourites" "" 605 3 ""
+game "advmame/joust" "Favourites" "" 0 0 ""
+game "advmame/kaiserkn" "" "" 98 1 ""
+game "advmame/krull" "Favourites" "" 0 0 ""
+game "advmame/llander" "Favourites" "" 931 2 ""
+game "advmame/marble" "Favourites" "" 188 2 ""
+game "advmame/marvland" "" "" 56 1 ""
+game "advmame/mercs" "Favourites" "" 0 0 ""
+game "advmame/mf_bdash" "Favourites" "" 67 1 ""
+game "advmame/mhavoc" "" "" 47 1 ""
+game "advmame/minesw4p" "" "" 49 1 ""
+game "advmame/missile" "Favourites" "" 157 2 ""
+game "advmame/mooncrst" "Favourites" "" 0 0 ""
+game "advmame/mpatrol" "Favourites" "" 181 2 ""
+game "advmame/mspacman" "Favourites" "" 0 0 ""
+game "advmame/mtrap" "" "" 14 1 ""
+game "advmame/openice" "" "" 14 1 ""
+game "advmame/orbitron" "" "" 75 2 ""
+game "advmame/outrun" "Favourites" "" 388 3 ""
+game "advmame/overdriv" "" "" 109 1 ""
+game "advmame/pacman" "Favourites" "" 336 3 ""
+game "advmame/pengo" "Favourites" "" 13 1 ""
+game "advmame/phoenix" "Favourites" "" 32 1 ""
+game "advmame/polaris" "Favourites" "" 0 1 ""
+game "advmame/polepos" "Favourites" "" 104 1 ""
+game "advmame/puzzloop" "Favourites" "" 276 1 ""
+game "advmame/qbert" "Favourites" "" 0 0 ""
+game "advmame/qix" "Favourites" "" 461 3 ""
+game "advmame/raiden" "Favourites" "" 0 0 ""
+game "advmame/rallyx" "Favourites" "" 0 0 ""
+game "advmame/robotron" "Favourites" "" 0 0 ""
+game "advmame/rshark" "" "" 0 1 ""
+game "advmame/rtype" "Favourites" "" 0 1 ""
+game "advmame/scramble" "Favourites" "" 110 1 ""
+game "advmame/silkworm" "Favourites" "" 19 1 ""
+game "advmame/snakjack" "" "" 0 1 ""
+game "advmame/spyhunt" "Favourites" "" 0 0 ""
+game "advmame/ssprint" "Favourites" "" 286 4 ""
+game "advmame/starcas" "Favourites" "" 12 1 ""
+game "advmame/starwars" "Favourites" "" 0 0 ""
+game "advmame/stocker" "Favourites" "" 0 0 ""
+game "advmame/tekken3" "" "" 196 1 ""
+game "advmame/tempest" "Favourites" "" 0 0 ""
+game "advmame/timeplt" "Favourites" "" 0 0 ""
+game "advmame/tmek" "Favourites" "" 0 0 ""
+game "advmame/tmekprot" "" "" 33 2 ""
+game "advmame/topspeed" "" "" 62 1 ""
+game "advmame/tron" "Favourites" "" 185 2 ""
+game "advmame/vanvan" "Favourites" "" 0 0 ""
+game "advmame/vaportrx" "" "" 0 0 ""
+game "advmame/xevious" "Favourites" "" 0 1 ""
+game "advmame/yard" "" "" 0 0 ""
+game "advmame/zaxxon" "Favourites" "" 0 0 ""
